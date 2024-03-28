@@ -132,10 +132,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne and colorTwo are reversed
+// colorOne should be blue and colorTwo should be red
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// colorTwo also needs to be set to 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -148,7 +151,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// We're using || which is an 'or' statement, we want to use &&
+// We're trying to make sure both statements are true rather than one or the other
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -161,7 +165,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// We want to reverse age and minAge and change the calulation to >=
+// We then need to change the console.log to show enter if true, and change the Else to no entry
 if(minAge <= age) {
   console.log('no entry');
 } else {
