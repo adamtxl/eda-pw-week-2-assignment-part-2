@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We're creating a variable called 'name' and set it to the value of 'Dane'
+// We set up conditional logic that is looking for equality between the name variable nd the string 'Mary'
+// If the name variable matches the name Mary we log in the console 'Hi, Mary!'
+// If the name doesn't match, we log 'How do you do?' Since name does not match the log will read 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare the variable of secret and the variable of code and declare code has the value of 123
+// Then we set up logic, if code equals 123, then we set the variable 'secret' to the value of 'Super' and multiply 'code' by 2. 
+// Code is now equal to 246. We have conditional logic if code is greater than 250 to update the value of secret to 'duper'
+// code is less than 250 so the value of secret does not update. Logged in the console will be 'super'
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We're setting variables for isStudent set to true, age which is 34, and zip code which is 55407
+// Next we're creating conditional logic, If the student variable matches to true and the zip code is greater than 80000 we log 'You're a student on the west coast!'
+// If that isn't true, then we look to see if isStudent is False OR if the age is less than 30, we log 'What are your hobbies?'
+// If neither of the above assertions are true we look solely at the isStudent variable and compare it to the value of true. If that's a match we log 'Welcome to Prime!'
+// If none of the assertions are true we log 'How about the weather?'
+// Since the third statement is a match, and the first 2 are not, the console will log 'Welcome to Prime!'
 
 //CODE
 /*
